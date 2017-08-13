@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: SF Pro Text,Myriad Set Pro,SF Pro Icons,Apple Legacy Chevron,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: #f2f2f2;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+h4,h5{
+    padding: 0;
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+
+.ac-gn{
+    background: black;
+}
+.ac-gn div{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ac-gn ul{
+    line-height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.ac-gn li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    background-size: 20px 44px;
+    display: block;
+    background: url("../image/image_large.svg") center no-repeat;
+    width: 20px;
+    height: 44px;
+}
+
+.bag{
+    background-size: 20px 44px;
+    display: block;
+    background: url("../image/image_large_bag.svg") center no-repeat;
+    width: 20px;
+    height: 44px;
+}
+.search{
+    background-size: 20px 44px;
+    display: block;
+    background: url("../image/image_large_search.svg") center no-repeat;
+    width: 20px;
+    height: 44px;
+}
+.ico:hover{
+    opacity: 0.8;
+}
+.ac-gn a{
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+}
+.ac-gn a:hover{
+    color: rgba(255,255,255,0.8);
+}
+
+.srp ul{
+    display: flex;
+}
+.srp li{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+}
+.srp .box{
+    height: 268px;
+    width: auto;
+}
+.srp h4{
+    padding-top: 30px;
+}
+.srp h5{
+    padding-top: 4px;
+}
+.srp .smaller{
+    font-size: 10px;
+    font-weight: 400;
+}
+.whitetest{
+    color: white;
+}
+.blacktest{
+    color: black;
+}
+.center{
+    text-align: center;
+}
+#li1{
+    background: url("../image/hey_siri_medium.jpg")center no-repeat;
+    background-size: cover;
+    border: solid 1px white;
+}
+#li2{
+    background: url("../image/bts_beats_mac_medium.jpg")center no-repeat;
+    background-size: cover;
+    border: solid 1px white;
+}
+#li3{
+    background: url("../image/macbookair_medium.jpg")center no-repeat;
+    background-size: cover;
+    border: solid 1px white;
+}
+#li4{
+    background: url("../image/how_to_shoot_on_iphone_large.png")center no-repeat;
+    background-size: cover;
+    text-align: center;
+    border: solid 1px white;
+}
+#li4img{
+    padding-top: 30px;
+}
+.srp .paddingtop0{
+    padding-top: 0;
+}
+
+.ac-gf{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.ac-gf-eg ul{
+    margin-top: 17px;
+    margin-bottom: 11px;
+}
+.ac-gf-eg li{
+    line-height: 21px;
+    font-size: 5px;
+    color: #888888;
+}
+.ac-gf-fl{
+    border-top: 1px #dddddd solid;
+    display: flex;
+}
+.ac-gf-fl div{
+    width: 25%;
+}
+.ac-gf-fl .title{
+    margin-top: 40px;
+    color: black;
+    font-weight: 800;
+}
+.ac-gf-fl li{
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+.ac-gf-fl a{
+    color: #555555;
+}
+
+.ac-gf-fo{
+    padding-top: 34px;
+}
+.ac-gf-fo span{
+    font-size: 10px;
+    color: #888888;
+}
+.ac-gf-fo .link{
+    color: royalblue;
+}
+.ac-gf-fo .link:hover{
+    text-decoration: underline;
+}
+.ac-gf-fo .eg{
+    padding-bottom: 6px;
+    border-bottom: 1px #dddddd solid;
+    margin-bottom: 10px;
+}
+.ac-gf-fo .linklist{
+    float: left;
+    margin-top: 3px;
+    margin-right: 30px;
+    font-size: 10px;
+}
+.ac-gf-fo p{
+    color: #888888;
+}
+.ac-gf-fo .linklist ul{
+    display: flex;
+}
+.paddingbr{
+    margin: 0 15px 12px 0;
+    padding-right: 15px;
+    border-right: solid #dddddd 1px;
+}
+.ac-gf-fo .linklist a{
+    color: #555555;
+}
+.listtest{
+    color: #999999;
+    font-size: 10px;
+}
+.counteyico{
+    float: right;
+    font-size: 10px;
+    color: #555555;
+    line-height: 21px;
+}
+.counteyico:before{
+    content: url("../image/16.png") ;
+    padding-right: 5px;
+}
+
+.padd {
+    height: 870px;
+    width: auto;
+}
+.padd ul{
+    height: 100%;
+}
+.padd li{
+    display: block;
+    width: 250px;
+    height: 100%;
+}
+.padd li:first-child{
+    float: left;
+}
+.padd li:first-child:hover button{
+    display: block;
+}
+.padd li:first-child:hover button:after{
+    content: url("../image/pageup.svg");
+}
+.padd li:first-child:hover button:hover:after{
+    content: url("../image/pageup-black.svg");
+}
+.padd li:last-child{
+    float: right;
+}
+.padd li:last-child:hover button{
+    display: block;
+}
+.padd li:last-child:hover button:after{
+    content: url("../image/pagedown.svg");
+}
+.padd li:last-child:hover button:hover:after{
+    content: url("../image/pagedown-black.svg");
+}
+.pageset{
+    display: none;
+    position: absolute;
+    background: rgba(200,200,200,0.5);
+    border: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    font-size: 53px;
+    line-height: 64px;
+    font-weight: normal;
+}
+.pageup-left{
+    top: 45%;
+    left: 30px;
+}
+.pageup-right{
+    top: 45%;
+    right: 30px;
+}
+
+.timepage{
+    z-index: -1;
+    position: absolute;
+    top: 44px;
+    height: 870px;
+    width: 100%;
+    overflow: hidden;
+}
+.timepage ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.timepage li{
+    height: 100%;
+    width: 100%;
+}
+.iphonesapn{
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 100px;
+}
+.iphonesapn span{
+    color: #f2f2f2;
+    font-size: 32px;
+}
+.iphone7image{
+    background: url("../image/iphone_7_large.jpg")center no-repeat;
+    background-size: 120%;
+    width: 100%;
+    height: 100%;
+}
